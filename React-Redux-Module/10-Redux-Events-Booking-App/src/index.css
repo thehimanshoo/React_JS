@@ -1,0 +1,17 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #e6f4f8;
+}
+.navbar a{
+  font-weight: bold;
+}
+.bg-teal , .btn-teal{
+  background-color: #005a66 !important;
+}
+.text-teal{
+  color: #005a66 !important;
+}
+.bg-light-blue{
+  background-color: #e9e9e9;
+}
+

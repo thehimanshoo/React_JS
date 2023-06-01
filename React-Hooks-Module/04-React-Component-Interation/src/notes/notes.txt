@@ -1,0 +1,98 @@
+Bigbasket Application (MERN Stack / FullStack)
+----------------------
+
+Server Configuration (Express , MongoDB)
+---------------------
+modules -> express , cors , dotenv , mongoose
+
+npm install express cors dotenv mongoose 
+
+REST API Configuration
+----------------------
+1) Get all the products
+	
+	URL : http://127.0.0.1:5000/api/products 
+	REQUEST : GET
+	method : router.get()
+	fields : no-fields 
+	
+2) Get a single product
+	
+	URL : http://127.0.0.1:5000/api/products/:id 
+	REQUEST : GET
+	method : router.get()
+	fields : no-fields 	
+	
+3) Create a product
+	
+	URL : http://127.0.0.1:5000/api/products/ 
+	REQUEST : POST
+	method : router.post()
+	fields : name , image , price , qty , info		
+	
+	
+4) Update a product
+	
+	URL : http://127.0.0.1:5000/api/products/:id
+	REQUEST : PUT
+	method : router.put()
+	fields : name , image , price , qty , info
+	
+4) Delete a product
+	
+	URL : http://127.0.0.1:5000/api/products/:id
+	REQUEST : DELETE
+	method : router.delete()
+	fields : no-fields		
+	
+MongoDB Configuration
+---------------------
+database : bigbasket-react
+table : products
+Fields : name : string,
+         image : string,
+		 price : number,
+		 qty : number,
+		 info : string,
+		 created : date (auto)
+		 
+Client Side Configuration (React JS)
+------------------------------------
+folder Structure
+-----------------
+	app
+	  -> components
+			-> navbar
+			-> home
+			-> products
+				-> product-list
+				-> product-admin
+				-> create-product
+				-> update-product
+
+modules -> axios , react-router-dom
+
+npm install axios react-router-dom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+ 

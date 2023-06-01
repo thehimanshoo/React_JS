@@ -1,0 +1,17 @@
+.landing-page{
+    background: white url("./assets/img/bg-grocery.jpg") scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: lightgreen;
+}
+.wrapper{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+}
+.table tbody tr td{
+    font-weight: bold !important;
+    cursor: pointer !important;
+}
+.active{
+    background-color: darkslategray;
+}
